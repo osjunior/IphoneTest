@@ -73,7 +73,6 @@
 		9C280BA51469D26D009A71D4 = {
 			isa = PBXGroup;
 			children = (
-				3F1E07511469DA57000B3444 /* AVFoundation.framework */,
 				9C280BBA1469D26E009A71D4 /* IphoneTest */,
 				9C280BB31469D26E009A71D4 /* Frameworks */,
 				9C280BB11469D26E009A71D4 /* Products */,
@@ -91,6 +90,7 @@
 		9C280BB31469D26E009A71D4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3F1E07511469DA57000B3444 /* AVFoundation.framework */,
 				9C280BB41469D26E009A71D4 /* UIKit.framework */,
 				9C280BB61469D26E009A71D4 /* Foundation.framework */,
 				9C280BB81469D26E009A71D4 /* CoreGraphics.framework */,
