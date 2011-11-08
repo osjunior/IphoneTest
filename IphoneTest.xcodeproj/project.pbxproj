@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F1E07461469D803000B3444 /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1E07451469D803000B3444 /* TestView.m */; };
 		9C280BB51469D26E009A71D4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C280BB41469D26E009A71D4 /* UIKit.framework */; };
 		9C280BB71469D26E009A71D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C280BB61469D26E009A71D4 /* Foundation.framework */; };
 		9C280BB91469D26E009A71D4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C280BB81469D26E009A71D4 /* CoreGraphics.framework */; };
@@ -21,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F1E07441469D803000B3444 /* TestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
+		3F1E07451469D803000B3444 /* TestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
 		9C280BB01469D26E009A71D4 /* IphoneTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IphoneTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C280BB41469D26E009A71D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9C280BB61469D26E009A71D4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -95,6 +98,8 @@
 				9C280BCD1469D26E009A71D4 /* ModelController.m */,
 				9C280BCF1469D26E009A71D4 /* MainStoryboard_iPhone.storyboard */,
 				9C280BD21469D26E009A71D4 /* MainStoryboard_iPad.storyboard */,
+				3F1E07441469D803000B3444 /* TestView.h */,
+				3F1E07451469D803000B3444 /* TestView.m */,
 				9C280BBB1469D26E009A71D4 /* Supporting Files */,
 			);
 			path = IphoneTest;
@@ -179,6 +184,7 @@
 				9C280BC81469D26E009A71D4 /* RootViewController.m in Sources */,
 				9C280BCB1469D26E009A71D4 /* DataViewController.m in Sources */,
 				9C280BCE1469D26E009A71D4 /* ModelController.m in Sources */,
+				3F1E07461469D803000B3444 /* TestView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +304,7 @@
 				9C280BD91469D26E009A71D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
