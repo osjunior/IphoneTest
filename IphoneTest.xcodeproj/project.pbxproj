@@ -85,8 +85,8 @@
 		9C280BBA1469D26E009A71D4 /* IphoneTest */ = {
 			isa = PBXGroup;
 			children = (
-				9C280BC31469D26E009A71D4 /* AppDelegate.h */,
-				9C280BC41469D26E009A71D4 /* AppDelegate.m */,
+				9C280BDB1469D786009A71D4 /* Iphone */,
+				9C280BDA1469D746009A71D4 /* Ipad */,
 				9C280BC61469D26E009A71D4 /* RootViewController.h */,
 				9C280BC71469D26E009A71D4 /* RootViewController.m */,
 				9C280BC91469D26E009A71D4 /* DataViewController.h */,
@@ -109,6 +109,22 @@
 				9C280BC21469D26E009A71D4 /* IphoneTest-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9C280BDA1469D746009A71D4 /* Ipad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Ipad;
+			sourceTree = "<group>";
+		};
+		9C280BDB1469D786009A71D4 /* Iphone */ = {
+			isa = PBXGroup;
+			children = (
+				9C280BC31469D26E009A71D4 /* AppDelegate.h */,
+				9C280BC41469D26E009A71D4 /* AppDelegate.m */,
+			);
+			name = Iphone;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
