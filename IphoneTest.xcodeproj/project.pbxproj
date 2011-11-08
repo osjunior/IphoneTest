@@ -20,6 +20,7 @@
 		9C280BCE1469D26E009A71D4 /* ModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C280BCD1469D26E009A71D4 /* ModelController.m */; };
 		9C280BD11469D26E009A71D4 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C280BCF1469D26E009A71D4 /* MainStoryboard_iPhone.storyboard */; };
 		9C280BD41469D26E009A71D4 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C280BD21469D26E009A71D4 /* MainStoryboard_iPad.storyboard */; };
+		9C280BF11469DDFD009A71D4 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C280BF01469DDFD009A71D4 /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		9C280BCD1469D26E009A71D4 /* ModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelController.m; sourceTree = "<group>"; };
 		9C280BD01469D26E009A71D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		9C280BD31469D26E009A71D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		9C280BF01469DDFD009A71D4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C280BF11469DDFD009A71D4 /* CoreData.framework in Frameworks */,
 				3F1E07521469DA57000B3444 /* AVFoundation.framework in Frameworks */,
 				9C280BB51469D26E009A71D4 /* UIKit.framework in Frameworks */,
 				9C280BB71469D26E009A71D4 /* Foundation.framework in Frameworks */,
@@ -73,6 +76,7 @@
 		9C280BA51469D26D009A71D4 = {
 			isa = PBXGroup;
 			children = (
+				9C280BF01469DDFD009A71D4 /* CoreData.framework */,
 				9C280BBA1469D26E009A71D4 /* IphoneTest */,
 				9C280BB31469D26E009A71D4 /* Frameworks */,
 				9C280BB11469D26E009A71D4 /* Products */,
@@ -102,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				3F1E074C1469DA1B000B3444 /* TestGroupODM */,
+				9C280BEE1469DDDC009A71D4 /* Images */,
 				9C280BDB1469D786009A71D4 /* Iphone */,
 				9C280BDA1469D746009A71D4 /* Ipad */,
 				9C280BC61469D26E009A71D4 /* RootViewController.h */,
@@ -142,6 +147,13 @@
 				9C280BC41469D26E009A71D4 /* AppDelegate.m */,
 			);
 			name = Iphone;
+			sourceTree = "<group>";
+		};
+		9C280BEE1469DDDC009A71D4 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
