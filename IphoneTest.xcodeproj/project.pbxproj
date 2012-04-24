@@ -27,6 +27,8 @@
 		9C280BF11469DDFD009A71D4 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C280BF01469DDFD009A71D4 /* CoreData.framework */; };
 		9CF5DD751546F483001B29B1 /* HolaController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CF5DD731546F483001B29B1 /* HolaController.m */; };
 		9CF5DD761546F483001B29B1 /* HolaController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CF5DD741546F483001B29B1 /* HolaController.xib */; };
+		9CF5DD811546F5EB001B29B1 /* TestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CF5DD7F1546F5EB001B29B1 /* TestController.m */; };
+		9CF5DD821546F5EB001B29B1 /* TestController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CF5DD801546F5EB001B29B1 /* TestController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +63,9 @@
 		9CF5DD721546F483001B29B1 /* HolaController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HolaController.h; sourceTree = "<group>"; };
 		9CF5DD731546F483001B29B1 /* HolaController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HolaController.m; sourceTree = "<group>"; };
 		9CF5DD741546F483001B29B1 /* HolaController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HolaController.xib; sourceTree = "<group>"; };
+		9CF5DD7E1546F5EB001B29B1 /* TestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestController.h; sourceTree = "<group>"; };
+		9CF5DD7F1546F5EB001B29B1 /* TestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestController.m; sourceTree = "<group>"; };
+		9CF5DD801546F5EB001B29B1 /* TestController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +135,7 @@
 		9C280BBA1469D26E009A71D4 /* IphoneTest */ = {
 			isa = PBXGroup;
 			children = (
+				9CF5DD7C1546F5D6001B29B1 /* Test */,
 				3FD061E41469DE5A00C99356 /* Hola */,
 				3F1E074C1469DA1B000B3444 /* TestGroupODM */,
 				9C280BEE1469DDDC009A71D4 /* Images */,
@@ -188,6 +194,16 @@
 			name = Images;
 			sourceTree = "<group>";
 		};
+		9CF5DD7C1546F5D6001B29B1 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				9CF5DD7E1546F5EB001B29B1 /* TestController.h */,
+				9CF5DD7F1546F5EB001B29B1 /* TestController.m */,
+				9CF5DD801546F5EB001B29B1 /* TestController.xib */,
+			);
+			name = Test;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -244,6 +260,7 @@
 				91A093941546F3650023575A /* IMG_0609.JPG in Resources */,
 				91A093951546F3650023575A /* IMG_0608.PNG in Resources */,
 				9CF5DD761546F483001B29B1 /* HolaController.xib in Resources */,
+				9CF5DD821546F5EB001B29B1 /* TestController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +280,7 @@
 				91A093991546F37F0023575A /* LTViewController.m in Sources */,
 				9CF5DD751546F483001B29B1 /* HolaController.m in Sources */,
 				91A093A01546F57B0023575A /* IpadViewController.m in Sources */,
+				9CF5DD811546F5EB001B29B1 /* TestController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
