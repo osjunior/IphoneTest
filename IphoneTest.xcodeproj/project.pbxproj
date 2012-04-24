@@ -16,6 +16,8 @@
 		91A093991546F37F0023575A /* LTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91A093981546F37F0023575A /* LTViewController.m */; };
 		91A093A01546F57B0023575A /* IpadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91A0939F1546F57B0023575A /* IpadViewController.m */; };
 		91A093AB1546F6AA0023575A /* CtrlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91A093AA1546F6AA0023575A /* CtrlViewController.m */; };
+		91A093B11546F9990023575A /* 1836348_700b.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 91A093B01546F9990023575A /* 1836348_700b.jpg */; };
+		91A093B41546F9BD0023575A /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91A093B31546F9BD0023575A /* View.xib */; };
 		9C280BB51469D26E009A71D4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C280BB41469D26E009A71D4 /* UIKit.framework */; };
 		9C280BB71469D26E009A71D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C280BB61469D26E009A71D4 /* Foundation.framework */; };
 		9C280BB91469D26E009A71D4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C280BB81469D26E009A71D4 /* CoreGraphics.framework */; };
@@ -49,6 +51,8 @@
 		91A0939F1546F57B0023575A /* IpadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IpadViewController.m; sourceTree = "<group>"; };
 		91A093A91546F6AA0023575A /* CtrlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CtrlViewController.h; path = ViewCtrl/CtrlViewController.h; sourceTree = "<group>"; };
 		91A093AA1546F6AA0023575A /* CtrlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CtrlViewController.m; path = ViewCtrl/CtrlViewController.m; sourceTree = "<group>"; };
+		91A093B01546F9990023575A /* 1836348_700b.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1836348_700b.jpg; sourceTree = "<group>"; };
+		91A093B31546F9BD0023575A /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
 		9C280BB01469D26E009A71D4 /* IphoneTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IphoneTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C280BB41469D26E009A71D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9C280BB61469D26E009A71D4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -116,6 +120,7 @@
 				9CF5DD721546F483001B29B1 /* HolaController.h */,
 				9CF5DD731546F483001B29B1 /* HolaController.m */,
 				9CF5DD741546F483001B29B1 /* HolaController.xib */,
+				91A093B31546F9BD0023575A /* View.xib */,
 			);
 			name = Hola;
 			sourceTree = "<group>";
@@ -216,6 +221,7 @@
 		9C280BEE1469DDDC009A71D4 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				91A093B01546F9990023575A /* 1836348_700b.jpg */,
 				3FC49FA01546F92D004C1A33 /* gurulogo-512_512.png */,
 				91A093921546F3650023575A /* IMG_0609.JPG */,
 				91A093931546F3650023575A /* IMG_0608.PNG */,
@@ -291,6 +297,8 @@
 				9CF5DD761546F483001B29B1 /* HolaController.xib in Resources */,
 				9CF5DD821546F5EB001B29B1 /* TestController.xib in Resources */,
 				3FC49FA11546F92D004C1A33 /* gurulogo-512_512.png in Resources */,
+				91A093B11546F9990023575A /* 1836348_700b.jpg in Resources */,
+				91A093B41546F9BD0023575A /* View.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
