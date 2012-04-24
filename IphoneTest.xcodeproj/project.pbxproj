@@ -24,6 +24,8 @@
 		9C280BD11469D26E009A71D4 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C280BCF1469D26E009A71D4 /* MainStoryboard_iPhone.storyboard */; };
 		9C280BD41469D26E009A71D4 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C280BD21469D26E009A71D4 /* MainStoryboard_iPad.storyboard */; };
 		9C280BF11469DDFD009A71D4 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C280BF01469DDFD009A71D4 /* CoreData.framework */; };
+		9CF5DD751546F483001B29B1 /* HolaController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CF5DD731546F483001B29B1 /* HolaController.m */; };
+		9CF5DD761546F483001B29B1 /* HolaController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CF5DD741546F483001B29B1 /* HolaController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +55,9 @@
 		9C280BD01469D26E009A71D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		9C280BD31469D26E009A71D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		9C280BF01469DDFD009A71D4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		9CF5DD721546F483001B29B1 /* HolaController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HolaController.h; sourceTree = "<group>"; };
+		9CF5DD731546F483001B29B1 /* HolaController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HolaController.m; sourceTree = "<group>"; };
+		9CF5DD741546F483001B29B1 /* HolaController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HolaController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +88,9 @@
 		3FD061E41469DE5A00C99356 /* Hola */ = {
 			isa = PBXGroup;
 			children = (
+				9CF5DD721546F483001B29B1 /* HolaController.h */,
+				9CF5DD731546F483001B29B1 /* HolaController.m */,
+				9CF5DD741546F483001B29B1 /* HolaController.xib */,
 			);
 			name = Hola;
 			sourceTree = "<group>";
@@ -230,6 +238,7 @@
 				9C280BD41469D26E009A71D4 /* MainStoryboard_iPad.storyboard in Resources */,
 				91A093941546F3650023575A /* IMG_0609.JPG in Resources */,
 				91A093951546F3650023575A /* IMG_0608.PNG in Resources */,
+				9CF5DD761546F483001B29B1 /* HolaController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +256,7 @@
 				9C280BCE1469D26E009A71D4 /* ModelController.m in Sources */,
 				3F1E07501469DA3B000B3444 /* OscarView.m in Sources */,
 				91A093991546F37F0023575A /* LTViewController.m in Sources */,
+				9CF5DD751546F483001B29B1 /* HolaController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
