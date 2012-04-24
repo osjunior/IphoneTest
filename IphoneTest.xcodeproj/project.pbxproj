@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		3F1E07501469DA3B000B3444 /* OscarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1E074F1469DA3B000B3444 /* OscarView.m */; };
 		3F1E07521469DA57000B3444 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F1E07511469DA57000B3444 /* AVFoundation.framework */; };
+		3FC49F9F1546F909004C1A33 /* OTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC49F9E1546F909004C1A33 /* OTest.m */; };
+		3FC49FA11546F92D004C1A33 /* gurulogo-512_512.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FC49FA01546F92D004C1A33 /* gurulogo-512_512.png */; };
 		91A093941546F3650023575A /* IMG_0609.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 91A093921546F3650023575A /* IMG_0609.JPG */; };
 		91A093951546F3650023575A /* IMG_0608.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 91A093931546F3650023575A /* IMG_0608.PNG */; };
 		91A093991546F37F0023575A /* LTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91A093981546F37F0023575A /* LTViewController.m */; };
@@ -36,6 +38,9 @@
 		3F1E074E1469DA3B000B3444 /* OscarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OscarView.h; sourceTree = "<group>"; };
 		3F1E074F1469DA3B000B3444 /* OscarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OscarView.m; sourceTree = "<group>"; };
 		3F1E07511469DA57000B3444 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3FC49F9D1546F909004C1A33 /* OTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTest.h; sourceTree = "<group>"; };
+		3FC49F9E1546F909004C1A33 /* OTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTest.m; sourceTree = "<group>"; };
+		3FC49FA01546F92D004C1A33 /* gurulogo-512_512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gurulogo-512_512.png"; sourceTree = "<group>"; };
 		91A093921546F3650023575A /* IMG_0609.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0609.JPG; sourceTree = "<group>"; };
 		91A093931546F3650023575A /* IMG_0608.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_0608.PNG; sourceTree = "<group>"; };
 		91A093971546F37F0023575A /* LTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTViewController.h; sourceTree = "<group>"; };
@@ -96,6 +101,15 @@
 			name = TestGroupODM;
 			sourceTree = "<group>";
 		};
+		3FC49F9B1546F8EB004C1A33 /* Oscart */ = {
+			isa = PBXGroup;
+			children = (
+				3FC49F9D1546F909004C1A33 /* OTest.h */,
+				3FC49F9E1546F909004C1A33 /* OTest.m */,
+			);
+			name = Oscart;
+			sourceTree = "<group>";
+		};
 		3FD061E41469DE5A00C99356 /* Hola */ = {
 			isa = PBXGroup;
 			children = (
@@ -147,6 +161,7 @@
 		9C280BBA1469D26E009A71D4 /* IphoneTest */ = {
 			isa = PBXGroup;
 			children = (
+				3FC49F9B1546F8EB004C1A33 /* Oscart */,
 				91A093A61546F65D0023575A /* ViewCtrl */,
 				9CF5DD7C1546F5D6001B29B1 /* Test */,
 				3FD061E41469DE5A00C99356 /* Hola */,
@@ -201,6 +216,7 @@
 		9C280BEE1469DDDC009A71D4 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				3FC49FA01546F92D004C1A33 /* gurulogo-512_512.png */,
 				91A093921546F3650023575A /* IMG_0609.JPG */,
 				91A093931546F3650023575A /* IMG_0608.PNG */,
 			);
@@ -274,6 +290,7 @@
 				91A093951546F3650023575A /* IMG_0608.PNG in Resources */,
 				9CF5DD761546F483001B29B1 /* HolaController.xib in Resources */,
 				9CF5DD821546F5EB001B29B1 /* TestController.xib in Resources */,
+				3FC49FA11546F92D004C1A33 /* gurulogo-512_512.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +312,7 @@
 				91A093A01546F57B0023575A /* IpadViewController.m in Sources */,
 				9CF5DD811546F5EB001B29B1 /* TestController.m in Sources */,
 				91A093AB1546F6AA0023575A /* CtrlViewController.m in Sources */,
+				3FC49F9F1546F909004C1A33 /* OTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
